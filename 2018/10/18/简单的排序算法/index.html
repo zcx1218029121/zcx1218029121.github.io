@@ -5,19 +5,19 @@
   
 
   
-  <title>简单的排序算法 | 浪掷</title>
+  <title>浪掷</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="[TOC] 该笔记用于熟悉使用markdown的语法和对简单排序算法的回顾 1. 选择排序1234567891011121314fun short(a :Comparable)&amp;#123;    val n=a.length    for(i in 0 until n)&amp;#123;        var min=i        for(j in i+1 until n)&amp;#123;">
+  <meta name="description" content="title: 简单的排序算法 [TOC] 该笔记用于熟悉使用markdown的语法和对简单排序算法的回顾 1. 选择排序1234567891011121314fun short(a :Comparable)&amp;#123;    val n=a.length    for(i in 0 until n)&amp;#123;        var min=i        for(j in i+1 until">
 <meta property="og:type" content="article">
-<meta property="og:title" content="简单的排序算法">
+<meta property="og:title" content="浪掷">
 <meta property="og:url" content="http://yoursite.com/2018/10/18/简单的排序算法/index.html">
 <meta property="og:site_name" content="浪掷">
-<meta property="og:description" content="[TOC] 该笔记用于熟悉使用markdown的语法和对简单排序算法的回顾 1. 选择排序1234567891011121314fun short(a :Comparable)&amp;#123;    val n=a.length    for(i in 0 until n)&amp;#123;        var min=i        for(j in i+1 until n)&amp;#123;">
+<meta property="og:description" content="title: 简单的排序算法 [TOC] 该笔记用于熟悉使用markdown的语法和对简单排序算法的回顾 1. 选择排序1234567891011121314fun short(a :Comparable)&amp;#123;    val n=a.length    for(i in 0 until n)&amp;#123;        var min=i        for(j in i+1 until">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-18T13:27:10.069Z">
+<meta property="og:updated_time" content="2018-10-18T13:47:19.645Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="简单的排序算法">
-<meta name="twitter:description" content="[TOC] 该笔记用于熟悉使用markdown的语法和对简单排序算法的回顾 1. 选择排序1234567891011121314fun short(a :Comparable)&amp;#123;    val n=a.length    for(i in 0 until n)&amp;#123;        var min=i        for(j in i+1 until n)&amp;#123;">
+<meta name="twitter:title" content="浪掷">
+<meta name="twitter:description" content="title: 简单的排序算法 [TOC] 该笔记用于熟悉使用markdown的语法和对简单排序算法的回顾 1. 选择排序1234567891011121314fun short(a :Comparable)&amp;#123;    val n=a.length    for(i in 0 until n)&amp;#123;        var min=i        for(j in i+1 until">
   
     <link rel="alternate" href="/atom.xml" title="浪掷" type="application/atom+xml">
   
@@ -74,19 +74,10 @@
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      简单的排序算法
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>[TOC]</p>
+        <p>title: 简单的排序算法</p>
+<p>[TOC]</p>
 <p>该笔记用于熟悉使用markdown的语法和对简单排序算法的回顾</p>
 <h5 id="1-选择排序"><a href="#1-选择排序" class="headerlink" title="1. 选择排序"></a>1. 选择排序</h5><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">short</span><span class="params">(a :<span class="type">Comparable</span>)</span></span>&#123;</span><br><span class="line">    <span class="keyword">val</span> n=a.length</span><br><span class="line">    <span class="keyword">for</span>(i <span class="keyword">in</span> <span class="number">0</span> until n)&#123;</span><br><span class="line">        <span class="keyword">var</span> min=i</span><br><span class="line">        <span class="keyword">for</span>(j <span class="keyword">in</span> i+<span class="number">1</span> until n)&#123;</span><br><span class="line">            <span class="keyword">if</span>(less(a[j],a[min]))&#123;<span class="comment">//寻找最小的元素</span></span><br><span class="line">                min=j</span><br><span class="line">                exach(a,min,i)</span><br><span class="line">            &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>时间复杂度 </p>
@@ -118,7 +109,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/18/简单的排序算法/" data-id="cjnemeap3000190k28tdju4c5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/18/简单的排序算法/" data-id="cjp2i0jxv0004f4k2bhqqqnni" class="article-share-link">Share</a>
       
       
     </footer>
@@ -126,6 +117,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2018/10/18/讲座笔记/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
   
   
     <a href="/2018/10/16/学习笔记—-安卓嵌套滑动/" id="article-nav-older" class="article-nav-link-wrap">
@@ -154,7 +154,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a></li></ul>
     </div>
   </div>
 
@@ -167,15 +167,23 @@
       <ul>
         
           <li>
-            <a href="/2018/10/18/简单的排序算法/">简单的排序算法</a>
+            <a href="/2018/11/29/为什么我需要先理解别人（负反馈）/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/10/18/mermaidxxxxxxxxxx graph TDA[方形] --B(圆角)    B -- C{条件a}    C --a=1 D[结果1]    C --a=2 E[结果2]    F[竖向流程图]#me/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/10/18/讲座笔记/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/10/18/简单的排序算法/">(no title)</a>
           </li>
         
           <li>
             <a href="/2018/10/16/学习笔记—-安卓嵌套滑动/">学习笔记—-安卓嵌套滑动</a>
-          </li>
-        
-          <li>
-            <a href="/2018/10/16/hello-world/">Hello World</a>
           </li>
         
       </ul>
